@@ -1,0 +1,13 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "comma-dangle": [2, "always-multiline"],
+    "semi": [2, "always", {
+      "omitLastInOneLineBlock": false,
+      "omitLastInOneLineClassBody": false
+    }],
+    "quotes": [2, "double"],
+    "no-extra-semi": 2
+  }
+}
