@@ -49,6 +49,11 @@ const PROJECTS = [
 
 const EXPERIENCES = [
   {
+    title: "Freelance",
+    date: "Sep. 2021 to now",
+    description: "Working as a freelance developer",
+  },
+  {
     title: "Majin.fr",
     date: "Aug. 2021 to now",
     description: "Creation of a Minecraft server (UHC & mini-games)",
