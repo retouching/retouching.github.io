@@ -2,7 +2,7 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "@/components/ui/button";
-import { faArrowUp, faAt, faBars, IconLookup } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faAt, faBars } from "@fortawesome/free-solid-svg-icons";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CONFIG, PROJECTS, EXPERIENCES } from "@/config";
 import BounceBtn from "@/components/bouncebtn";
@@ -15,7 +15,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Input } from "@/components/ui/input";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import InputCopy from "@/components/inputcopy";
 

@@ -28,7 +28,7 @@ export default function InputCopy({ value, icon }: { value: string, icon: IconLo
       <Tooltip open={displayTooltip}>
         <TooltipTrigger asChild onClick={onClick} onBlur={onUnfocus} className="flex w-full items-center">
           <div>
-            <Input onClick={(evt) => (evt.target as HTMLInputElement).select()} aria-label="Tooltip text" type="text" value={value} className="rounded-r-none border-2 border-r-0 focus-visible:ring-0 focus-visible:ring-offset-0 bg-black/45" />
+            <Input onClick={(evt) => (evt.target as HTMLInputElement).select()} aria-label="Tooltip text" type="text" defaultValue={value} className="rounded-r-none border-2 border-r-0 focus-visible:ring-0 focus-visible:ring-offset-0 bg-black/45" />
             <Button aria-label="Tooltip icon" className="rounded-l-none border-input border-2 border-l-0 pointer-events-none w-[40px]">
               <FontAwesomeIcon icon={icon} />
             </Button>
